@@ -1,0 +1,266 @@
+header img {
+	width: 500px;
+	height: auto;
+}
+
+header {
+	background-color: #6b8c42;
+	margin: 0px;
+}
+
+nav {
+	margin: 0px 0px 10px 0px;
+	background-color: #5a3921;
+}
+
+nav ul {
+	margin: 0px;
+	list-style: none;
+	display: flex;
+	padding-left: 10px;
+}
+
+nav li {
+	display: block;
+	margin: 10px;
+}
+
+nav a {
+	color: #ffffb5;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+}
+
+.error {
+	color: red;
+}
+
+h3 {
+	margin-bottom: 8px;
+}
+
+.profile img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile h2 {
+	padding: 0px;
+	margin: 10px 0px 5px 0px;
+}
+
+.profile h3 {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.profile h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.detailContent {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.quote {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0px;
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+}
+
+.quoteSource {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.facts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.facts>div {
+	display: block;
+	width: 180px;
+	padding: 5px;
+	margin: 2px;
+	justify-content: space-between;
+	align-self: center;
+	text-align: center;
+	background-color: #7bc67b;
+}
+
+.facts h4 {
+	margin: 10px:
+}
+
+.weather {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.weather .other {
+	display: block;
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+}
+
+.weather .other img {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: auto;
+}
+
+.weather p {
+	
+}
+
+.weather .today {
+	display: block;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.weather .today img {
+	display: inline;
+	margin: 0 auto;
+	width: 200px;
+	height: auto;
+}
+
+.weather .today h3 {
+	margin: 0px;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 65%;
+}
+
+.result img {
+	display: block;
+	width: 200px;
+	height: 100%;
+	padding: 5px;
+}
+
+.result p {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	margin: auto;
+}
+
+.result h4 {
+	display: block;
+	padding-left: 15px;
+	text-align: left;
+	width: 30%;
+	margin: auto auto auto 0;
+}
+
+.tempChange {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.park-description {
+	display: flex;
+}
+
+.parkimg:hover {
+	opacity: 0.7;
+}
+
+@media all and (max-width: 800px) {
+	.park-description {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.park-description img {
+		width: 400px;
+		height: auto;
+	}
+}
+
+}
+.main-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#parkDetails {
+	padding-left: 10px;
+	background-color: white;
+	margin: 5px;
+	vertical-align: top;
+}
+
+#parkDetails h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#parkDetails h4 {
+	margin: 5px 5px 5px 0px;
+}
+
+#survey {
+	display: flex;
+	width: 75%;
+}
+
+#submit {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+#submit button {
+	
+}
+
+.questions {
+	display: inline-block;
+	width: 25%;
+}
+
+.questions div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.answers div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	background-color: #5a3921;
+	color: #ffffb5;
+	padding: 5px 5px 5px 10px;
+}
